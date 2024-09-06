@@ -1,0 +1,12 @@
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.container p{
+    text-transform: uppercase;
+}
+.container h2{
+    font-size: 35px;
+    font-weight: bold;
+}

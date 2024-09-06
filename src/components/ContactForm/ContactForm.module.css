@@ -1,0 +1,52 @@
+.container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topbtn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+form{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+form div{
+    position:relative;
+    
+}
+form label{
+    background-color: white;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+form input{
+    padding: 5px;
+    height: 40px;
+    margin: 0 auto;
+    width: 95%;
+}
+form textarea{
+    padding: 10px 5px;
+    width: 95%;
+}
+form input:hover{
+    border: 1px solid rgb(0, 38, 255);
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
